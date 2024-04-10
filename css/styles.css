@@ -1,0 +1,219 @@
+body {
+    font-family: 'IBM Plex Serif', Serif;
+    margin: 0;
+    padding: 0;
+    background-image: url();
+    background-size: cover;
+}
+
+h1 { 
+    font-family: 'IBM Plex Serif', Serif;
+  -webkit-text-stroke-color: #9cb4a9;
+  -webkit-text-stroke-width: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.container {
+    max-width: 1100px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(241, 250, 220); 
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+	background: #9ACD32;
+	height: 55px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+a.header-logo{
+  font-size:50px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f8b262;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dish {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255); 
+    padding: 20px; 
+
+}
+
+.dish {
+    width: 100%; 
+    max-width: 400px; 
+    margin: 10px auto; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; 
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.dish img {
+    width: 100%; 
+    border-radius: 5px 5px 0 0; 
+}
+
+.dish h3,
+.dish p {
+    margin: 10px; 
+}
+
+#decor1 {
+    float: left;
+    background: url('https://thumbs.dreamstime.com/z/картина-витамина-безшовная-овощи-п-о-оовощей-86371295.jpg') repeat-x;
+    height: 900px;
+    width: 200px;
+}
+
+#decor2 {
+    float: right;
+    background: url('https://thumbs.dreamstime.com/z/картина-витамина-безшовная-овощи-п-о-оовощей-86371295.jpg') repeat-x;
+    height: 900px;
+    width: 200px;
+   }
+
+.scrolling-image-container {
+  overflow: hidden;
+}
+
+.footer #block{
+position:relative;
+margin-top:2px;
+width:99,99%;
+ height:99%;
+background: #9ACD32;
+}
+ 
+.footer #text{
+  Position: relative;
+  right:201px;
+  width:123px;
+margin:14 auto;
+ top:-51px;
+ 
+}
+
+.footer1{
+    float:left;
+    width:499px;
+    }
+
+.footer h1{
+   color: #ffc9c9;
+   font-family: PT Astra Sans;
+   margin-top:69px;
+   margin-left:39px;  
+}
+
+.footer #knopka{
+    width:50px;
+    height:50px;
+    border: #fdfdfd 8px dashed;
+    margin:-3 auto;
+    position:center;
+
+}
+
+.footer #knopka:hover{
+    width:50px;
+    height:50px;
+    border: #fdfdfd 8px dashed;
+}
+
+.footer {
+    position: fixed;
+    right:0;
+    bottom:0;
+    width: 99%;
+    height: 2em;
+    overflow:hidden;
+    transition: all 2s ease;
+
+}
+
+.footer:hover {
+    transition: all 2s ease;
+    height: 9em;
+}

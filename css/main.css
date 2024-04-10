@@ -1,0 +1,164 @@
+body {
+    font-family: 'IBM Plex Serif', Serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+body {
+    font-family: 'IBM Plex Serif', Serif;
+    margin: 0;
+    padding: 0;
+    background-image: url();
+    background-size: cover;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+	height: 55px;
+}
+
+.container {
+    max-width: 900px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(241, 250, 220); 
+    height: 400px;
+}
+
+.about{
+    margin-top: 250px;
+}
+
+.about_info h2{
+    color: #181313;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+.about_info p {
+    color: #181717;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 48px;
+    font-style: italic;
+  }
+  
+.text_about p{
+      color: #201209;
+      font-size: 2px;
+      font-weight: 200;
+      text-align: center;
+  }
+
+  .wrapper{
+    margin-left: 350px;
+    max-width: 900px;
+    display:flex;
+    text-align:center;
+    gap:20px;
+  }
+  
+  .wrapper-item{
+    font-family: 'IBM Plex Serif', Serif;
+    background-color: #8fe05dec;
+    width: 317px;
+    height: 200px;
+    border-radius: 17px;
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  
+  .item-img {
+    border-radius: 18px;
+    margin-top: 5px;
+  }
+
+  .item-info{
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+    font-style: italic;
+
+  }
+  
+  .item-btn{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .btn{
+    background-color: #3e8e41;
+    width: 140px;
+    height: 24px;
+    border-radius: 10px;
+    padding: 7px 12px;
+    text-decoration: none;
+    color: #f5f1ec;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+.footer{
+    max-width: 860px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgb(241, 250, 220); 
+    font-family: 'IBM Plex Serif', Serif;
+    text-align:center;
+    }
+    
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+    
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+    
+.footer .row a:hover{
+    color:#fff;
+    }
+    
+.footer .row ul{
+    width:100%;
+    }
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+.footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+.footer .row a i{
+    margin:0% 3%;
+    }
+    }
