@@ -1,0 +1,631 @@
+body {
+    font-family: 'IBM Plex Serif', Serif;
+    background-size: cover;
+}
+
+
+.container {
+    margin-top: 10px;
+    max-width: 1000px;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgb(241, 250, 220); 
+    height: 780px;
+}
+
+.logo img{
+    width: 20%; 
+    margin-left: 400px;
+    margin-right: auto; 
+    margin-top: -15px;   
+}
+header h1{
+    color: #323232;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 20px;
+    text-align:justify;
+    margin-left: 350px;
+  }
+ h1.title{
+    color: #323232;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 5px;
+    text-align:justify;
+    align-items: center;
+    margin-left: 420px;
+  }
+  h1.title2{
+    color: #323232;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 5px;
+    text-align:justify;
+    align-items: center;
+    margin-left: 470px;
+  }
+  .isbran{
+    margin-left:400px;
+  }
+  .profile{
+    margin-left:390px;
+  }
+  .reg {
+    margin: 50px auto;
+    margin-top: 10px;
+    padding: 30px;
+    width: 500px;
+    background-color: #3e8e41;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 470px;
+  }
+  .reg2 {
+    margin: 50px auto;
+    margin-top: 10px;
+    padding: 30px;
+    width: 500px;
+    background-color: #3e8e41;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 350px;
+  }
+  
+  .reg p {
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .reg2 p {
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .recipe-image {
+    width: 100%; /* Задается ширина относительно контейнера */
+    max-width: 400px; /* Максимальная ширина картинки */
+    height: auto; /* Высота изменяется пропорционально */
+    border-radius: 8px; /* Скругленные углы для эстетики */
+    margin-top: 20px; /* Отступ сверху */
+}
+
+  
+  .reg hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  .reg2 hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  .reg label {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+
+  }
+  .reg2 label {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+
+  }
+  
+  .reg input[type="text"],
+  .reg input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+  }
+  .reg::placeholder{
+font-family:'IBM Plex Serif', Serif;
+  }
+  .reg2 input[type="text"],
+  .reg2 input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'IBM Plex Serif', Serif;
+  }
+  
+  .reg input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3e8e41;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  .reg2 input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3e8e41;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+  .help {
+    margin: 50px auto;
+    margin-top: 10px;
+    padding: 30px;
+    width: 600px;
+    background-color: #3e8e41;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 200px;
+  }
+  
+  .help p {
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+ 
+  .help hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+  
+  .help input[type="text"] {
+    width: 90%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .help input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3e8e41;
+    color: white;
+    border: none;
+    border-radius: 3px;
+  }
+
+  .reg a {
+    text-decoration: none;
+    color: #f8b262;
+  }
+  .reg2 a {
+    text-decoration: none;
+    color: #f8b262;
+  }
+ .search{
+    gap: 10px;
+    display: flex;
+ }
+ .search_menu{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+ }
+
+.dropbtn{
+    background-color: #3e8e41;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 7px 12px;
+    text-decoration: none;
+    color: #f5f1ec;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'IBM Plex Serif', Serif;
+  }
+section{
+    margin-top: 40px;
+}
+.dropdown {
+    display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #323232;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}  
+.text h2{
+    color: #323232;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -5px;
+    text-align:justify;
+  }
+  
+.text p { 
+    color: #323232;
+    font-size: 16px;
+    font-weight: 500;
+    text-align:justify;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+input[type="text"] {
+    width: 100%;
+    padding-right: 600px;
+    font-size: 14px;
+    font-family: 'IBM Plex Serif', Serif;
+}
+.help button{
+  height: 50px;
+  width: 200px;
+  margin-top:10px;
+  margin-left:200px;
+}
+.reg button{
+    height: 50px;
+    width: 200px;
+    margin-left:150px;
+}
+.reg2 button{
+    height: 50px;
+    width: 100px;
+    margin-left:200px;
+    margin-top: 20px;
+}
+.btn.reg_button {
+  width: 150px;
+}
+.btn.vhod_button {
+  width: 50px;
+}
+.but{
+  display: flex;
+  gap:10px;
+}
+.reg button:hover {
+    color: #ffffff;
+    background-color: #f8b262;
+}
+.help button:hover {
+  color: #ffffff;
+  background-color: #f8b262;
+}
+.reg2 button:hover {
+    color: #ffffff;
+    background-color: #f8b262;
+}
+
+.vhod{
+    margin-top: 20px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f8b262;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 7px 12px;
+    text-decoration: none;
+    color: #f5f1ec;
+    font-weight: 700;
+    font-family: 'IBM Plex Serif', Serif;
+}
+.btn{
+  background-color: #3e8e41;
+  width: 140px;
+  height: 24px;
+  border-radius: 10px;
+  padding: 7px 12px;
+  text-decoration: none;
+  color: #f5f1ec;
+  font-size: 14px;
+  font-weight: 700;
+}
+button:hover {
+    background-color: #3e8e41;
+}
+
+#searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ul{
+    padding:0px;
+    margin-bottom: 50px; /* Добавляем отступ снизу списка */
+}
+.dish {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255); 
+    padding: 20px; 
+
+}
+
+.dish {
+    width: 100%; 
+    max-width: 400px; 
+    margin: 10px auto; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; 
+    background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.dish img {
+    width: 100%; 
+    border-radius: 5px 5px 0 0; 
+}
+
+.dish h3,
+.dish p {
+    margin: 10px; 
+}
+
+
+.scrolling-image-container {
+  overflow: hidden;
+}
+
+.footer{
+  max-width: 1000px;
+    border-radius: 20px;
+    margin-top: 40px;  
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    background-color: rgb(241, 250, 220); 
+    font-family: 'IBM Plex Serif', Serif;
+    text-align:center;
+    }
+.footer .row{
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0.6% 0%;
+    color:grey;
+    font-size:0.8em;
+    }
+    
+.footer .row a{
+    text-decoration:none;
+    color:grey;
+    transition:0.5s;
+    }
+    
+.footer .row a:hover{
+    color: #3e8e41;
+
+    }
+    
+.footer .row ul{
+    width:100%;
+    }
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+    }
+    
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+    
+    @media only screen and (max-width: 720px) {
+      .footer{
+        text-align:left;
+        padding:5%;
+        }
+    
+    .footer .row ul li{
+        display:block;
+        margin:10px 0px;
+        text-align:left;
+        }
+    .footer .row a i{
+        margin:0% 3%;
+        }
+        
+      .logo img{
+        width: 60%; 
+        margin-right: auto; 
+        margin-left: auto; 
+        margin-top: -15px; 
+        margin-bottom: 20px;  
+    }
+    .help {
+      padding: 10px;
+  }
+  
+  .help p {
+      font-size: 16px;
+  }
+
+  .help input[type="text"] {
+      padding: 8px;
+  }
+
+  .help button {
+      padding: 8px 16px;
+      font-size: 14px;
+  }
+    .profile{
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 30px;
+    }
+    .welcome{
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 30px;
+    }
+    #welcome2{
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 25px;
+    }
+    .helping{
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 30px;
+    }
+    .isbran{
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 30px;
+    }
+      .search{
+        gap: 10px;
+        display: flex;
+     }
+     #searchInput{
+      padding-right: 50px;
+      padding-top:10px ;
+     }
+     .search_menu{
+        margin-top: 20px;
+        display: inline;
+        align-items: center;
+        gap: 20px;
+        
+     }
+     .dropbtn{
+      display: none;
+     }
+
+      .container {
+        max-width: 1000px;
+        border-radius: 20px;
+        margin: 0 auto;
+        padding: 40px;
+        background-color: rgb(241, 250, 220); 
+        height: 850px;
+        margin-top: 0px;
+    }
+    .container2 {
+      max-width: 1000px;
+      border-radius: 20px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: rgb(241, 250, 220); 
+      height: 80px;
+      margin-top: 0px;
+  }
+      header {
+        text-align: center;
+        
+      }
+  
+      .help button{
+        margin-left:75px;
+        margin-right: auto;
+      }
+      .text h2{
+        font-size: 16px;
+      }
+      
+    .text p { 
+        font-size: 14px;
+    }
+    .help {
+      margin-top: 10px;
+      padding: 20px;
+      width: 350px;
+      background-color: #3e8e41;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+      main {
+        text-align: justify;
+      }
+      
+      .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      gap:0px;
+    
+      }
+      
+      .wrapper-item {
+        margin-bottom: 20px;
+      }
+      .reg {
+        width: 80%;
+        margin: 0 auto;
+        height: 510px;
+    }
+    .reg button{
+      margin-left:55px;
+      margin-right: auto;
+  }
+    input[type="text"],
+    input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin: 5px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    .reg2 {
+      width: 80%;
+      margin: 0 auto;
+      height: 390px;
+  }
+  .reg2 button{
+    margin-left:100px;
+    margin-right: auto;
+}
+    }
+    

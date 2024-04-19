@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food App</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a class="logo" href="#"><img src="svg/logo.svg" alt="#"></a> 
+            <h1 class="welcome">Добро пожаловать!</h1>
+        </header> 
+  <h1 class="title2" aling = "center" id="welcome2">Вход</h1>
+
+    <form action="php/signIn.php" method="post">
+        <div class="reg2">
+  
+     <p>Пожалуйста, заполните форму для входа в аккаунт</p>
+    <hr>
+    <label for="email"><b>Почта</b></label>
+    <input type="text" placeholder="Введите почту" name="email" required>
+
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="Введите пароль" name="psw" required>
+    <button type="submit" class="button">Войти</button> 
+    <p class="vhod">Еще нет аккаунта? <a href="LogIn.html">Зарегистрироваться</a></p>
+  </div>
+   
+</form>
+</div>
+    <footer>
+        <div class="footer">
+        <div class="row">
+        <ul>
+        <li><a href="Healthum.html">Главная</a></li>
+        <li><a href="Profile.html">Мой профиль</a></li>
+        <li><a href="Selected.html">Избранное</a></li>
+        <li><a href="Search.html">Рецепты</a></li>
+        <li><a href="Help.html">Обратная связь</a></li>
+        </ul>
+        </div>
+        
+        <div class="row">
+        Copyright © 2024 - Все права защищены | Healthy
+        </div>
+        </div>
+        </footer>
+        <script src="js/signIn.js"></script>
+</body>
+</html>
